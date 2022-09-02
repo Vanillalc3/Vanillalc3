@@ -19,7 +19,7 @@
             let projectile = game.projectile.create(x, y, assetKeyProjectile);
             projectile.anchor.setTo(0.5, 0.5);
             projectile.alpha = 0;
-            game.physics.arcade.enable(projectile);
+            game.physics.arcade.enabld(projectile);
             return projectile;
         }
 

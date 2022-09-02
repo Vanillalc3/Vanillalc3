@@ -47,10 +47,10 @@
             if (asset.body && player.getStateName() !== 'flyingJump') asset.body.velocity.x = 0;
             if (cursors.left.isDown || aKey.isDown) {
                 player.setDirection(-1);
-                player.run();
+                player.run(1);
             } else if (cursors.right.isDown || dKey.isDown) {
                 player.setDirection(1);
-                player.run();
+                player.run(1);
             } else if (cursors.down.isDown || sKey.isDown) {
                 player.duck();
             } else {}
