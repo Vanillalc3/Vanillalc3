@@ -9,10 +9,12 @@
 			width: 125px;
 			height: 70px;
 			background-color: teal;
-			font-size: 300%;
+			font-size: 450%;
 			text-align: center;
 			display: block;
 			position: absolute;
+			color:rgb(247, 243, 11);
+			font-weight: bold;
 			top: 100px;
 			left: 0px;  /* <--- Change me! */
 			background-image: url("https://lh3.googleusercontent.com/RVhvdnH1LbaanSu05bVy6HWYTO0yTxYTUU7BvNQRAkpohNlIOsvZdJWr4zkn9vNOdww");
@@ -44,7 +46,7 @@
 			var boardWidth = board.width();	// the maximum X-Coordinate of the screen
 
 			// Every 50 milliseconds, call the update Function (see below)
-			setInterval(update, 50);
+			setInterval(update, 25);
 			
 			// Every time the box is clicked, call the handleBoxClick Function (see below)
 			box.on('click', handleBoxClick);
